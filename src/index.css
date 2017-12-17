@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.header {
+  background: #034955;
+  margin-top: -21px;
+  height: 75px;
+  line-height: 75px;
+} 
+
+.header--title {
+  margin-left: 35px;
+  color: #eeeeee;
+}
+
+
+.app {
+  margin-top: 0px;   
+}
+
+.outputText{
+  float:left;
+}
+
+.inputText{
+  width: 40%;
+  float: left;
+}
+
+.inputText__textarea {
+  margin-top: 25px;
+  margin-left: 25px;
+  border: 1px #1d1d1d solid; 
+  padding: 10px;
+}
+
+.inputText__textarea:focus {
+  outline: none;
+}
+

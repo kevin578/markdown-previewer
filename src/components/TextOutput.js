@@ -11,6 +11,6 @@ export default class TextOutput extends React.Component {
       }
 
     render(){
-            return <div dangerouslySetInnerHTML={this.getMarkdownText()} />
+            return <div className = "outputText" dangerouslySetInnerHTML={this.getMarkdownText()} />
     }
 }

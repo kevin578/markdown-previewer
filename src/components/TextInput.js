@@ -3,8 +3,8 @@ import React from 'react'
 export default class TextInput extends React.Component {
     render() {
         return (
-          <div>
-          <textarea rows="4" cols="50" name = "textBox"
+          <div className = "inputText">
+          <textarea rows="35" cols="50" name = "textBox" className = "inputText__textarea"
           onChange = {(e)=>{
             this.props.updateText(e.target.value);
           }}
