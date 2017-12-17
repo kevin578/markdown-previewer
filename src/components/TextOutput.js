@@ -1,11 +1,16 @@
 import React from 'react'
+import marked from 'marked';
 
-const TextOutput = (props)=> {
-        return (
-            <div>
-                <p>{props.outputText}</p>
-            </div>
-        )
+
+export default class TextOutput extends React.Component {
+
+
+    getMarkdownText() {
+        var rawMarkup = marked(this.props.outputText, {sanitize: true});
+        return { __html: rawMarkup };
+      }
+
+    render(){
+            return <div dangerouslySetInnerHTML={this.getMarkdownText()} />
+    }
 }
-
-export default TextOutput;
