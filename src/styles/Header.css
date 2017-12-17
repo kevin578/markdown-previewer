@@ -1,0 +1,11 @@
+.header {
+    background: #034955;
+    margin-top: -21px;
+    height: 75px;
+    line-height: 75px;
+} 
+
+.header--title {
+    margin-left: 35px;
+    color: #eeeeee;
+}

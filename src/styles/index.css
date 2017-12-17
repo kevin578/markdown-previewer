@@ -1,0 +1,12 @@
+@import './Header.css';
+@import './App.css';
+@import './TextInput.css';
+@import './TextOutput.css'
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
