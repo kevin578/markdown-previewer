@@ -7,13 +7,29 @@ body {
 .header {
   background: #034955;
   margin-top: -21px;
-  height: 75px;
+  height: 90px;
   line-height: 75px;
+  color: #eeeeee;
 } 
 
 .header--title {
   margin-left: 35px;
+  width: 335px;
+  display: inline-block;
+}
+
+.header--logo {
+  width: 30px;
+  pointer-events: none
+}
+
+.header__a {
   color: #eeeeee;
+}
+
+.header__p {
+  display: inline-block;
+  margin-left: 10px; 
 }
 
 
